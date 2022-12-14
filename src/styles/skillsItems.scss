@@ -1,0 +1,22 @@
+#skillsItems {
+    width: 150px;
+    height: 150px;
+    // background-color: red;
+    margin: 5px;
+    border-radius: 50%;
+
+    >div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        >img {
+            width: 75px;
+            height: 100px;
+            object-fit: contain;
+        }
+    }
+
+
+}

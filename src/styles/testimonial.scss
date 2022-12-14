@@ -1,0 +1,32 @@
+#testimonial {
+    width: 100%;
+    padding: 13.33vmax;
+
+
+    >h2 {
+        font: 700 2.5rem $text2;
+        color: $white;
+        border-bottom: 1px solid grey;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+
+    >section {
+        width: 80%;
+        height: 40rem;
+        background-color: pink;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 8rem;
+        margin: auto;
+        gap: 20px;
+
+    }
+
+
+
+}

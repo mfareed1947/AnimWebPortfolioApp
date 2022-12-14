@@ -1,0 +1,70 @@
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    position: sticky;
+    top: 0%;
+    z-index: 60;
+    background-color: $bg;
+
+    >h2 {
+        font-size: 22px;
+        color: $white;
+    }
+
+    >div {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        letter-spacing: 1px;
+
+        a {
+            color: $white;
+            transition: all 0.3s;
+
+            &:hover {
+                color: $helper;
+            }
+        }
+
+    }
+
+    >a>button {
+        color: $white;
+        background: $gradient;
+        padding: 10px;
+        letter-spacing: 1px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+
+        &:hover {
+            box-shadow: 0 2rem 2rem 0 rgba(132, 144, 255, 30%);
+        }
+    }
+
+}
+
+
+
+.navbtn {
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    color: $white;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 150;
+
+    &:hover {
+        color: $white;
+    }
+
+}

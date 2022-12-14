@@ -1,0 +1,81 @@
+#work {
+    
+    height: 100vh;
+    padding: 8rem $p;
+
+    >h2 {
+        font: 700 2.5rem $text2;
+        color: $white;
+        border-bottom: 1px solid grey;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+
+    >section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 20px 5px grey;
+        background-color: $helper;
+
+        >article {
+            width: 70%;
+            height: 25vmax;
+        }
+
+        .workItems {
+            height: 25vmax;
+            overflow-y: auto;
+            width: 100%;
+            display: flex;
+            margin: auto;
+            padding: 2rem;
+            background-color: white;
+
+            img {
+                object-fit: contain;
+                border-radius: 20px;
+                width: 40%;
+            }
+
+            >aside {
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                >h3 {
+                    color: black;
+                }
+
+                >p {
+                    font-size: 15px;
+                    letter-spacing: 3px;
+                    margin: 2rem;
+                    color: #897575;
+                }
+
+                >a {
+                    padding: 10px;
+                    background-color: $helper;
+                    color: $white;
+                    transition: all 0.5s;
+
+                    &:hover {
+                        background-color: rgb(192, 30, 54);
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+}

@@ -1,0 +1,36 @@
+#article {
+    width: 30%;
+    height: 100%;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+
+    >h4 {
+        color: black;
+    }
+
+    >img {
+        top: 0%;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        transform: translateY(-50%);
+    }
+
+    >p {
+        letter-spacing: 2px;
+        margin: 20px 0;
+        font-size: 0.9rem;
+        line-height: 160%;
+        text-align: center;
+        overflow: hidden;
+        color: rgb(82, 78, 78);
+    }
+
+}
